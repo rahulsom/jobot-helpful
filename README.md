@@ -1,4 +1,4 @@
-# hubot-helpful-hubot
+# jobot-helpful
 
 Hubot redirect to help if he doesn't understand a command.
 
@@ -8,17 +8,20 @@ See [`src/helpful-hubot.coffee`](src/helpful-hubot.coffee) for full documentatio
 
 In hubot project repo, run:
 
-`npm install hubot-helpful-hubot --save`
+`npm install jobot-helpful --save`
 
-Then add **hubot-helpful-hubot** to your `external-scripts.json`:
+Then add **jobot-helpful** to your `external-scripts.json`:
 
 ```json
-["hubot-helpful-hubot"]
+["jobot-helpful"]
 ```
 
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot typo
+hubot>> Sorry I don't understand
+hubot>> hubot typo
+hubot>> Try help typo
+
 ```
