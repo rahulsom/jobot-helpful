@@ -1,25 +1,24 @@
 {
   "name": "jobot-helpful",
   "description": "Hubot redirect to help if he doesn't understand a command.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Samuel Boucher <boucher.samue.c@gmail.com>",
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts","help"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "help"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/8DTechnologies/jobot-helpful.git"
   },
-
   "bugs": {
     "url": "https://github.com/8DTechnologies/jobot-helpful/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +29,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
