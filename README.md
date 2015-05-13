@@ -22,6 +22,6 @@ Then add **jobot-helpful** to your `external-scripts.json`:
 user1>> hubot typo
 hubot>> Sorry I don't understand
 hubot>> hubot typo
-hubot>> Try help typo
+hubot>> Try hubot help typo
 
 ```
